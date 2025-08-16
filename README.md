@@ -16,11 +16,11 @@ Simulador de un sistema de atención médica con prioridades implementado en Jav
 - ⚡ **Generación automática** de pacientes de prueba
 
 ## 🏗️ Estructura del proyecto
-src/
-├── Main.java # Punto de entrada
-├── AppUI.java # Interfaz gráfica (Swing)
-├── Doctor.java # Lógica de los doctores
-└── Patient.java # Modelo de pacientes
+- src/
+- ├── Main.java # Punto de entrada
+- ├── AppUI.java # Interfaz gráfica (Swing)
+- ├── Doctor.java # Lógica de los doctores
+- └── Patient.java # Modelo de pacientes
 
 text
 
