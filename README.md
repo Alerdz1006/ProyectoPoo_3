@@ -1,4 +1,4 @@
-# 🏥 Centro de Atención Médica Virtual - Simulador de Prioridades
+# 🏥 PROYECTO 2 - CENTRO DE ATENCION MEDICA VIRTUAL
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)
 ![Swing](https://img.shields.io/badge/GUI-Java_Swing-green)
