@@ -31,37 +31,37 @@ text
 
 ## 🚀 Cómo ejecutar
 
-### Con IDE (recomendado)
+### Con IDE
 1. Clona el repositorio
 2. Abre el proyecto en IntelliJ/Eclipse
 3. Ejecuta `Main.java`
 
- Uso del sistema
-Registro manual:
+## Uso del sistema
+### Registro manual:
 
-Ingresa nombre y prioridad del paciente
+- Ingresa nombre y prioridad del paciente
 
-Click en "Registrar Paciente"
+- Click en "Registrar Paciente"
 
-Modo automático:
+ ### Modo automático:
 
-El sistema genera pacientes aleatorios cada 3 segundos
+- El sistema genera pacientes aleatorios cada 3 segundos
 
-Monitorización:
+### Monitorización:
 
-Consulta el estado de los doctores en tiempo real
+- Consulta el estado de los doctores en tiempo real
 
-Revisa el histórico en el panel de registro
+- Revisa el histórico en el panel de registro
 
-⏱️ Tiempos de atención
-Prioridad	Tiempo de atención
-🚨 Emergencia	8-10 segundos
-⚠️ Urgente	5-7 segundos
-🏥 Consulta general	1-5 segundos
+## ⏱️ Tiempos de atención
+- Prioridad	Tiempo de atención
+- 🚨 Emergencia	8-10 segundos
+- ⚠️ Urgente	5-7 segundos
+- 🏥 Consulta general	1-5 segundos
 
-📝 Notas adicionales
-Los pacientes se atienden por prioridad y orden de llegada
+## 📝 Notas adicionales
+- Los pacientes se atienden por prioridad y orden de llegada
 
-Los doctores cambian de color según su estado (rojo=ocupado, verde=libre)
+- Los doctores cambian de color según su estado (rojo=ocupado, verde=libre)
 
-El sistema muestra tiempos de espera y atención para cada paciente
+- El sistema muestra tiempos de espera y atención para cada paciente
