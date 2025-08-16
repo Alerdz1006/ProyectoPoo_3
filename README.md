@@ -1,4 +1,4 @@
-# 🏥 PROYECTO 2 - CENTRO DE ATENCION MEDICA VIRTUAL
+# PROYECTO 2 - CENTRO DE ATENCION MEDICA VIRTUAL
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)
 ![Swing](https://img.shields.io/badge/GUI-Java_Swing-green)
@@ -6,16 +6,16 @@
 
 Simulador de un sistema de atención médica con prioridades implementado en Java, que utiliza programación concurrente para gestionar pacientes y doctores.
 
-## 📌 Características principales
+## Características principales
 
-- 🖥️ **Interfaz gráfica intuitiva** con Java Swing
-- 🚑 **Tres niveles de prioridad** para pacientes
-- ⏱️ **Tiempos de atención diferenciados** según gravedad
-- 👨‍⚕️ **3 doctores virtuales** atendiendo concurrentemente
-- 📊 **Panel de monitorización** en tiempo real
-- ⚡ **Generación automática** de pacientes de prueba
+-  **Interfaz gráfica intuitiva** con Java Swing
+- **Tres niveles de prioridad** para pacientes
+- **Tiempos de atención diferenciados** según gravedad
+- **3 doctores virtuales** atendiendo concurrentemente
+- **Panel de monitorización** en tiempo real
+- **Generación automática** de pacientes de prueba
 
-## 🏗️ Estructura del proyecto
+##  Estructura del proyecto
 - src/
 - ├── Main.java # Punto de entrada
 - ├── AppUI.java # Interfaz gráfica (Swing)
@@ -24,12 +24,12 @@ Simulador de un sistema de atención médica con prioridades implementado en Jav
 
 text
 
-## ⚙️ Requisitos
+##  Requisitos
 
 - Java JDK 17 o superior
 - Maven (opcional para gestión de dependencias)
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 ### Con IDE
 1. Clona el repositorio
@@ -53,13 +53,13 @@ text
 
 - Revisa el histórico en el panel de registro
 
-## ⏱️ Tiempos de atención
+##  Tiempos de atención
 - Prioridad	Tiempo de atención
-- 🚨 Emergencia	8-10 segundos
-- ⚠️ Urgente	5-7 segundos
-- 🏥 Consulta general	1-5 segundos
+-  Emergencia	8-10 segundos
+-  Urgente	5-7 segundos
+-  Consulta general	1-5 segundos
 
-## 📝 Notas adicionales
+## Notas adicionales
 - Los pacientes se atienden por prioridad y orden de llegada
 
 - Los doctores cambian de color según su estado (rojo=ocupado, verde=libre)
