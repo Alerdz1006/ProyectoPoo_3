@@ -1,75 +1,67 @@
-Simulador de Centro de Atención Médica Virtual
-Descripción
-Sistema de simulación de atención médica con prioridades desarrollado en Java, que utiliza programación concurrente para gestionar pacientes y doctores en un entorno virtual.
+# 🏥 Centro de Atención Médica Virtual - Simulador de Prioridades
 
-Características principales
-✔ Interfaz gráfica con Java Swing
-✔ Gestión de prioridades (Emergencia, Urgente, Consulta general)
-✔ Sistema de colas con PriorityBlockingQueue
-✔ Tiempos de atención diferenciados según prioridad del paciente
-✔ Visualización en tiempo real del estado de los doctores
-✔ Registro detallado de todas las actividades
+![Java](https://img.shields.io/badge/Java-17%2B-blue)
+![Swing](https://img.shields.io/badge/GUI-Java_Swing-green)
+![Concurrency](https://img.shields.io/badge/Concurrency-PriorityBlockingQueue-orange)
 
-Estructura del proyecto
+Simulador de un sistema de atención médica con prioridades implementado en Java, que utiliza programación concurrente para gestionar pacientes y doctores.
+
+## 📌 Características principales
+
+- 🖥️ **Interfaz gráfica intuitiva** con Java Swing
+- 🚑 **Tres niveles de prioridad** para pacientes
+- ⏱️ **Tiempos de atención diferenciados** según gravedad
+- 👨‍⚕️ **3 doctores virtuales** atendiendo concurrentemente
+- 📊 **Panel de monitorización** en tiempo real
+- ⚡ **Generación automática** de pacientes de prueba
+
+## 🏗️ Estructura del proyecto
+src/
+├── Main.java # Punto de entrada
+├── AppUI.java # Interfaz gráfica (Swing)
+├── Doctor.java # Lógica de los doctores
+└── Patient.java # Modelo de pacientes
+
 text
-CentroMedicoVirtual/
-├── src/
-│   ├── Main.java            # Punto de entrada del programa
-│   ├── AppUI.java           # Interfaz gráfica principal
-│   ├── Doctor.java          # Lógica de atención de doctores
-│   └── Patient.java         # Modelo de paciente con prioridades
-Requisitos previos
-Java JDK 11 o superior
 
-IDE recomendado: IntelliJ IDEA o Eclipse (opcional)
+## ⚙️ Requisitos
 
-Pasos de ejecución
-Ejecutar desde IDE
-Clonar el repositorio (si está disponible)
+- Java JDK 17 o superior
+- Maven (opcional para gestión de dependencias)
 
-Abrir el proyecto en tu IDE
+## 🚀 Cómo ejecutar
 
-Buscar y ejecutar la clase Main.java
+### Con IDE (recomendado)
+1. Clona el repositorio
+2. Abre el proyecto en IntelliJ/Eclipse
+3. Ejecuta `Main.java`
 
-Ejecutar desde línea de comandos
-Compilar:
+ Uso del sistema
+Registro manual:
 
-bash
-javac src/*.java -d bin/
-Ejecutar:
+Ingresa nombre y prioridad del paciente
 
-bash
-java -cp bin/ Main
-Uso del sistema
-Registro de pacientes:
+Click en "Registrar Paciente"
 
-Ingresar nombre y seleccionar prioridad
-
-Hacer clic en "Registrar Paciente"
-
-Visualización de doctores:
-
-Ver estado actual (Libre/Atendiendo) en pestaña "Consultorios"
-
-Los doctores cambian de color según su estado
-
-Monitorización:
-
-Todos los eventos se registran en la pestaña "Panel de Control"
-
-Se muestra tiempo de espera y atención para cada paciente
-
-Funcionamiento automático:
+Modo automático:
 
 El sistema genera pacientes aleatorios cada 3 segundos
 
-Tres doctores atienden pacientes según su prioridad
+Monitorización:
 
-Prioridades y tiempos de atención
-🚨 Emergencia: 8-10 segundos de atención
+Consulta el estado de los doctores en tiempo real
 
-⚠️ Urgente: 5-7 segundos de atención
+Revisa el histórico en el panel de registro
 
-🏥 Consulta general: 1-5 segundos de atención
+⏱️ Tiempos de atención
+Prioridad	Tiempo de atención
+🚨 Emergencia	8-10 segundos
+⚠️ Urgente	5-7 segundos
+🏥 Consulta general	1-5 segundos
 
-El sistema prioriza automáticamente a los pacientes según su condición médica.
+📝 Notas adicionales
+Los pacientes se atienden por prioridad y orden de llegada
+
+Los doctores cambian de color según su estado (rojo=ocupado, verde=libre)
+
+El sistema muestra tiempos de espera y atención para cada paciente
